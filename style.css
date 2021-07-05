@@ -1,0 +1,184 @@
+
+html {
+  backdrop-filter: grayscale(100%) opacity(0.7) ;
+}
+html {
+  
+  background-image: url("https://data.whicdn.com/images/332256877/original.jpg");
+
+  height: 100%;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.middle{
+
+  width: 30%;
+}
+
+.column.side1{
+	width: 30%;
+}
+.column.side2{
+	width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 30px;
+	margin-left: 300px;
+
+}
+h6{
+	color: white;
+	margin-left: 20px;
+}
+.pic{
+	list-style-type: none;
+}
+h1 {
+	color: orange;
+	margin-left: 5px;
+    font-size: 38px;
+	
+}
+
+.fa {
+  padding:15px;
+  font-size: 30px;
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  margin-right: 22px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: none;
+  color: white;
+	
+}
+
+.fa-twitter {
+  background: none;
+  color: white;
+
+}
+.topnav{
+	
+	float: right;
+}
+.topnav a{
+	
+	float: right;
+	padding: 14px 16px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.topnav a:hover {
+  background-color:none;
+  opacity: 0.7;
+}
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 33.33px;
+  padding: 5px;
+}
+.pic{
+	list-style-type: none;
+}
+.img1{
+	width: 70%;
+	height: 200px;
+	margin-left: 70px;
+	margin-top: 100px;
+}
+.img2{
+    padding-bottom: 30px;
+}
+.img3{
+	padding-left: 10px;
+	
+}
+.img4{
+	padding-left: 100px;
+}
+p{
+	color: white;
+    
+}
+.p1{
+	margin-left: 160px;
+}
+.p3{
+    margin-top: 130px;
+}
+.p4{
+	margin-left: 100px;
+}
+.row3 {
+	padding-top: 20px;
+  display: flex;
+}
+
+.column3 {
+  flex: 20px;
+ 
+}
+.dot2 {
+  height: 8px;
+  width: 8px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.button {
+  background-color: coral;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 20px;
+}
+h8{
+	color: white;
+}
+h4{
+	color:white;
+}
